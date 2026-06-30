@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formal Methods for AI-Augmented Software Engineering</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">FM+AI</div>
+                <ul class="nav-links">
+                    <li><a href="#course">Course</a></li>
+                    <li><a href="#textbook">Textbook</a></li>
+                    <li><a href="#labs">Labs</a></li>
+                    <li><a href="#ai-ta">AI TA</a></li>
+                    <li><a href="#impact">Impact</a></li>
+                </ul>
+                <a href="#start" class="btn btn-primary">Get Started</a>
+            </nav>
+            
+            <div class="hero-content">
+                <h1>Formal Methods for <span class="highlight">AI-Augmented</span> Software Engineering</h1>
+                <p class="hero-subtitle">A specification-first approach to building reliable software with AI assistance</p>
+                <p class="hero-tagline">Zero-cost AI tools. Zero-tolerance for bugs. Maximum learning.</p>
+                
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">8</span>
+                        <span class="stat-label">Chapters</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Hands-on Exercises</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Free & Open Source</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">0</span>
+                        <span class="stat-label">API Tokens Needed</span>
+                    </div>
+                </div>
+                
+                <div class="hero-cta">
+                    <a href="#start" class="btn btn-large btn-primary">Start Learning</a>
+                    <a href="#textbook" class="btn btn-large btn-secondary">Read Textbook</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="manifesto" class="manifesto">
+        <div class="container">
+            <h2>The Textbook Manifesto</h2>
+            <div class="manifesto-grid">
+                <div class="manifesto-card">
+                    <div class="card-icon">📋</div>
+                    <h3>Specifications Before Implementation</h3>
+                    <p>Every exercise begins with a formal specification. Code is a refinement, not a starting point.</p>
+                </div>
+                <div class="manifesto-card">
+                    <div class="card-icon">✅</div>
+                    <h3>Correctness is Not Optional</h3>
+                    <p>Learn to prove properties using pre-conditions, post-conditions, and invariants.</p>
+                </div>
+                <div class="manifesto-card">
+                    <div class="card-icon">🤖</div>
+                    <h3>AI as Teaching Assistant</h3>
+                    <p>Local AI models guide students without paid API calls. Human learners stay in control.</p>
+                </div>
+                <div class="manifesto-card">
+                    <div class="card-icon">🏗️</div>
+                    <h3>Architecture is First-Class</h3>
+                    <p>Learn to design systems, not just write functions. Think like senior engineers.</p>
+                </div>
+                <div class="manifesto-card">
+                    <div class="card-icon">📊</div>
+                    <h3>Impact is Measurable</h3>
+                    <p>Quantify learning: bug prevention, productivity gains, confidence levels.</p>
+                </div>
+                <div class="manifesto-card">
+                    <div class="card-icon">🔧</div>
+                    <h3>Build Real Systems</h3>
+                    <p>Every chapter builds toward a capstone: verified distributed systems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="course" class="course">
+        <div class="container">
+            <h2>Course Structure</h2>
+            <p class="section-subtitle">16-week semester for 3rd Year BTech CSE students</p>
+            
+            <div class="modules">
+                <div class="module">
+                    <div class="module-header">
+                        <span class="module-number">01</span>
+                        <h3>Foundations of Formal Thinking</h3>
+                        <span class="module-weeks">Weeks 1-3</span>
+                    </div>
+                    <ul class="module-topics">
+                        <li>The Specification Mindset</li>
+                        <li>Propositions, Predicates, and Python</li>
+                        <li>Types as Specifications</li>
+                    </ul>
+                    <div class="module-tools">
+                        <span class="tool">mypy</span>
+                        <span class="tool">pydantic</span>
+                        <span class="tool">Z3</span>
+                    </div>
+                </div>
+                
+                <div class="module">
+                    <div class="module-header">
+                        <span class="module-number">02</span>
+                        <h3>Spec-Driven Development</h3>
+                        <span class="module-weeks">Weeks 4-7</span>
+                    </div>
+                    <ul class="module-topics">
+                        <li>From Requirements to Specifications</li>
+                        <li>Pre-conditions, Post-conditions, Invariants</li>
+                        <li>Property-Based Testing</li>
+                        <li>Model Checking</li>
+                    </ul>
+                    <div class="module-tools">
+                        <span class="tool">hypothesis</span>
+                        <span class="tool">deal</span>
+                        <span class="tool">pytest</span>
+                    </div>
+                </div>
+                
+                <div class="module">
+                    <div class="module-header">
+                        <span class="module-number">03</span>
+                        <h3>Software Architecture & AI</h3>
+                        <span class="module-weeks">Weeks 8-11</span>
+                    </div>
+                    <ul class="module-topics">
+                        <li>Architectural Specifications</li>
+                        <li>API Specifications and Verification</li>
+                        <li>Concurrency and Distributed Systems</li>
+                        <li>Refactoring with Specifications</li>
+                    </ul>
+                    <div class="module-tools">
+                        <span class="tool">FastAPI</span>
+                        <span class="tool">OpenAPI</span>
+                        <span class="tool">asyncio</span>
+                    </div>
+                </div>
+                
+                <div class="module">
+                    <div class="module-header">
+                        <span class="module-number">04</span>
+                        <h3>Advanced Topics & AI Integration</h3>
+                        <span class="module-weeks">Weeks 12-14</span>
+                    </div>
+                    <ul class="module-topics">
+                        <li>Formal Methods in Industry</li>
+                        <li>AI-Augmented Development Workflows</li>
+                        <li>Security, Privacy, and Ethics</li>
+                    </ul>
+                    <div class="module-tools">
+                        <span class="tool">Ollama</span>
+                        <span class="tool">langchain</span>
+                        <span class="tool">cryptography</span>
+                    </div>
+                </div>
+                
+                <div class="module module-capstone">
+                    <div class="module-header">
+                        <span class="module-number">05</span>
+                        <h3>Capstone Project</h3>
+                        <span class="module-weeks">Weeks 15-16</span>
+                    </div>
+                    <ul class="module-topics">
+                        <li>Verified Distributed Task Queue</li>
+                        <li>Formally-Specified API Gateway</li>
+                        <li>Property-Tested Configuration Language</li>
+                    </ul>
+                    <div class="module-badge">Portfolio Project</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="impact" class="impact">
+        <div class="container">
+            <h2>Measurable Impact</h2>
+            <p class="section-subtitle">We measure what students learn, not just what they do</p>
+            
+            <div class="impact-grid">
+                <div class="impact-category">
+                    <h3>Student Learning</h3>
+                    <div class="impact-metrics">
+                        <div class="metric">
+                            <span class="metric-label">Specification Writing</span>
+                            <div class="metric-bar">
+                                <div class="metric-fill" style="width: 85%"></div>
+                            </div>
+                            <span class="metric-target">0% → 85%</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">Bug Detection (Pre-Implementation)</span>
+                            <div class="metric-bar">
+                                <div class="metric-fill" style="width: 75%"></div>
+                            </div>
+                            <span class="metric-target">15% → 75%</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">Architecture Reasoning</span>
+                            <div class="metric-bar">
+                                <div class="metric-fill" style="width: 80%"></div>
+                            </div>
+                            <span class="metric-target">30% → 80%</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">AI Tool Literacy</span>
+                            <div class="metric-bar">
+                                <div class="metric-fill" style="width: 95%"></div>
+                            </div>
+                            <span class="metric-target">20% → 95%</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="impact-category">
+                    <h3>Productivity Gains</h3>
+                    <div class="impact-metrics">
+                        <div class="metric">
+                            <span class="metric-label">Defects per 1000 LOC</span>
+                            <div class="metric-bar">
+                                <div class="metric-fill metric-decrease" style="width: 25%"></div>
+                            </div>
+                            <span class="metric-target">15-20 → 3-5</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">Time to First Correct Implementation</span>
+                            <div class="metric-bar">
+                                <div class="metric-fill metric-decrease" style="width: 37%"></div>
+                            </div>
+                            <span class="metric-target">4 hrs → 1.5 hrs</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">Onboarding Time for New Codebase</span>
+                            <div class="metric-bar">
+                                <div class="metric-fill metric-decrease" style="width: 21%"></div>
+                            </div>
+                            <span class="metric-target">2 weeks → 3 days</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">AI-Assisted Development Speed</span>
+                            <div class="metric-bar">
+                                <div class="metric-fill" style="width: 100%"></div>
+                            </div>
+                            <span class="metric-target">2.5x baseline</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ai-ta" class="ai-ta">
+        <div class="container">
+            <h2>AI Teaching Assistant</h2>
+            <p class="section-subtitle">Local AI that guides without giving answers</p>
+            
+            <div class="ai-ta-features">
+                <div class="feature">
+                    <div class="feature-icon">💬</div>
+                    <h3>Socratic Tutor</h3>
+                    <p>Asks questions rather than giving answers. Students learn by reasoning, not copying.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">✅</div>
+                    <h3>Specification Reviewer</h3>
+                    <p>Checks if specifications are complete and unambiguous. Catches missing edge cases.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🔍</div>
+                    <h3>Code Mentor</h3>
+                    <p>Explains why code fails, not just that it fails. Connects errors to specification gaps.</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🎓</div>
+                    <h3>Concept Explainer</h3>
+                    <p>Explains formal methods concepts with analogies, examples, and practice exercises.</p>
+                </div>
+            </div>
+            
+            <div class="ai-ta-setup">
+                <h3>Zero-Cost Setup</h3>
+                <div class="setup-steps">
+                    <div class="step">
+                        <span class="step-number">1</span>
+                        <p>Install Ollama (free, open source)</p>
+                    </div>
+                    <div class="step">
+                        <span class="step-number">2</span>
+                        <p>Download llama3.1:8b model (~5GB)</p>
+                    </div>
+                    <div class="step">
+                        <span class="step-number">3</span>
+                        <p>Run Python client with course materials</p>
+                    </div>
+                    <div class="step">
+                        <span class="step-number">4</span>
+                        <p>Start learning with AI guidance</p>
+                    </div>
+                </div>
+                <div class="setup-note">
+                    <p>🔒 <strong>Privacy First:</strong> All AI processing is local. No data leaves your machine. No API keys. No costs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="textbook" class="textbook">
+        <div class="container">
+            <h2>Textbook Chapters</h2>
+            <p class="section-subtitle">Open access, CC BY-SA 4.0</p>
+            
+            <div class="chapters-list">
+                <div class="chapter-item">
+                    <span class="chapter-number">00</span>
+                    <div class="chapter-info">
+                        <h3>Manifesto</h3>
+                        <p>The philosophy and principles behind the course</p>
+                    </div>
+                    <a href="textbook/00-manifesto.md" class="btn btn-small">Read</a>
+                </div>
+                <div class="chapter-item">
+                    <span class="chapter-number">01</span>
+                    <div class="chapter-info">
+                        <h3>Syllabus</h3>
+                        <p>Complete course structure and learning outcomes</p>
+                    </div>
+                    <a href="textbook/01-syllabus.md" class="btn btn-small">Read</a>
+                </div>
+                <div class="chapter-item">
+                    <span class="chapter-number">Ch1</span>
+                    <div class="chapter-info">
+                        <h3>The Specification Mindset</h3>
+                        <p>Pre-conditions, post-conditions, and invariants</p>
+                    </div>
+                    <a href="textbook/ch01-specification-mindset.md" class="btn btn-small">Read</a>
+                </div>
+                <div class="chapter-item">
+                    <span class="chapter-number">Ch2</span>
+                    <div class="chapter-info">
+                        <h3>Propositions, Predicates, and Python</h3>
+                        <p>Logic foundations with Z3 theorem prover</p>
+                    </div>
+                    <a href="textbook/ch02-logic-python.md" class="btn btn-small">Read</a>
+                </div>
+                <div class="chapter-item">
+                    <span class="chapter-number">Ch3</span>
+                    <div class="chapter-info">
+                        <h3>Types as Specifications</h3>
+                        <p>Static typing, generics, and Pydantic validation</p>
+                    </div>
+                    <a href="textbook/ch03-types-as-specifications.md" class="btn btn-small">Read</a>
+                </div>
+                <div class="chapter-item">
+                    <span class="chapter-number">Ch4</span>
+                    <div class="chapter-info">
+                        <h3>Spec-Driven Development</h3>
+                        <p>The complete SDD workflow with AI integration</p>
+                    </div>
+                    <a href="textbook/ch04-spec-driven-development.md" class="btn btn-small">Read</a>
+                </div>
+                <div class="chapter-item">
+                    <span class="chapter-number">Ch5</span>
+                    <div class="chapter-info">
+                        <h3>Property-Based Testing</h3>
+                        <p>Hypothesis for finding bugs across all inputs</p>
+                    </div>
+                    <a href="textbook/ch05-property-based-testing.md" class="btn btn-small">Read</a>
+                </div>
+                <div class="chapter-item">
+                    <span class="chapter-number">Ch6</span>
+                    <div class="chapter-info">
+                        <h3>Software Architecture</h3>
+                        <p>Specifying systems with OpenAPI and protocols</p>
+                    </div>
+                    <a href="textbook/ch06-software-architecture.md" class="btn btn-small">Read</a>
+                </div>
+                <div class="chapter-item">
+                    <span class="chapter-number">Ch7</span>
+                    <div class="chapter-info">
+                        <h3>Verification and Validation</h3>
+                        <p>Model checking, static analysis, and proofs</p>
+                    </div>
+                    <a href="textbook/ch07-verification-validation.md" class="btn btn-small">Read</a>
+                </div>
+                <div class="chapter-item">
+                    <span class="chapter-number">Ch8</span>
+                    <div class="chapter-info">
+                        <h3>AI-Augmented Development</h3>
+                        <p>Building the future of software engineering</p>
+                    </div>
+                    <a href="textbook/ch08-ai-augmented-development.md" class="btn btn-small">Read</a>
+                </div>
+                <div class="chapter-item">
+                    <span class="chapter-number">Ch9</span>
+                    <div class="chapter-info">
+                        <h3>Capstone Project</h3>
+                        <p>Bring it all together with a verified system</p>
+                    </div>
+                    <a href="textbook/ch09-capstone-project.md" class="btn btn-small">Read</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="start" class="cta-section">
+        <div class="container">
+            <h2>Ready to Build Reliable Software?</h2>
+            <p>Join thousands of students learning specification-driven development with AI assistance.</p>
+            <div class="cta-buttons">
+                <a href="textbook/00-manifesto.md" class="btn btn-large btn-primary">Start with the Manifesto</a>
+                <a href="ai-ta/setup-guide.md" class="btn btn-large btn-secondary">Set Up AI TA</a>
+            </div>
+            <p class="cta-note">Open Educational Resource • CC BY-SA 4.0 • No registration required</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">FM+AI</div>
+                    <p>Formal Methods for AI-Augmented Software Engineering</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Course</h4>
+                    <ul>
+                        <li><a href="textbook/00-manifesto.md">Manifesto</a></li>
+                        <li><a href="textbook/01-syllabus.md">Syllabus</a></li>
+                        <li><a href="#course">Modules</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="ai-ta/setup-guide.md">AI TA Setup</a></li>
+                        <li><a href="#labs">Labs</a></li>
+                        <li><a href="#impact">Impact Metrics</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Community</h4>
+                    <ul>
+                        <li><a href="#">GitHub</a></li>
+                        <li><a href="#">Discussion Forum</a></li>
+                        <li><a href="#">Contribute</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Licensed under CC BY-SA 4.0. Open Educational Resource.</p>
+                <p>Designed for 3rd Year BTech CSE students.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
